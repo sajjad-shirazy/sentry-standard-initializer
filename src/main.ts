@@ -41,7 +41,7 @@ export function generateOptions(app?: Application) {
   };
 }
 
-export function init(app?: Application) {
+export function initSentry(app?: Application) {
   Sentry.init(generateOptions(app));
 }
 
