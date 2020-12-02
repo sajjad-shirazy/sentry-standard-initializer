@@ -29,7 +29,7 @@ function filterMetricsRequests(tracingHandler: Function): any {
   };
 }
 
-export function generateOptions(app?: Application) {
+export function generateSentryOptions(app?: Application) {
   return {
     dsn: SENTRY_DSN,
     environment: NODE_ENV,
@@ -42,7 +42,7 @@ export function generateOptions(app?: Application) {
 }
 
 export function initSentry(app?: Application) {
-  Sentry.init(generateOptions(app));
+  Sentry.init(generateSentryOptions(app));
 }
 
 function integrateWithRouter(app?: Application) {
