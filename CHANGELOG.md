@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/nestjsplus/nestjs-package-starter/compare/v1.0.1...v1.0.2) (2020-12-02)
+
+
+### Bug Fixes
+
+* Application ([bddcb41](https://github.com/nestjsplus/nestjs-package-starter/commit/bddcb414297b83b0fec44b0f08278b67efa2987c))
+
 ### [1.0.1](https://github.com/nestjsplus/nestjs-package-starter/compare/v1.0.0...v1.0.1) (2020-12-02)
 
 
