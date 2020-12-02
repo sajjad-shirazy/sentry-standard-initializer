@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/nestjsplus/nestjs-package-starter/compare/v1.0.3...v1.0.4) (2020-12-02)
+
+
+### Features
+
+* generateSentryOptions ([8ab70f8](https://github.com/nestjsplus/nestjs-package-starter/commit/8ab70f8a1829ec9ba446dda5948163c78723af7b))
+
 ### [1.0.3](https://github.com/nestjsplus/nestjs-package-starter/compare/v1.0.2...v1.0.3) (2020-12-02)
 
 
