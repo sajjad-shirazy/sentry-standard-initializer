@@ -1,6 +1,6 @@
 import * as Sentry from '@sentry/node';
 import { Integrations } from '@sentry/tracing';
-import { Router } from 'express';
+import { Application } from 'express';
 import { IncomingMessage, ServerResponse } from 'http';
 
 const {
@@ -26,7 +26,7 @@ function filterMetricsRequests(tracingHandler: Function): any {
   };
 }
 
-export function generateOptions(app?: Router) {
+export function generateOptions(app?: Application) {
   return {
     dsn: SENTRY_DSN,
     environment: NODE_ENV,
@@ -38,11 +38,11 @@ export function generateOptions(app?: Router) {
   };
 }
 
-export function init(app?: Router) {
+export function init(app?: Application) {
   Sentry.init(generateOptions(app));
 }
 
-function integrateWithRouter(app: Router) {
+function integrateWithRouter(app?: Application) {
   const integrations = [];
   if (app) {
     // RequestHandler creates a separate execution context using domains, so that every
