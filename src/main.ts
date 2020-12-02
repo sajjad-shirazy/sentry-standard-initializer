@@ -1,7 +1,10 @@
 import * as Sentry from '@sentry/node';
 import { Integrations } from '@sentry/tracing';
-import { Application } from 'express';
 import { IncomingMessage, ServerResponse } from 'http';
+
+interface Application {
+  use(...args: any): any;
+}
 
 const {
   NODE_ENV,
@@ -56,7 +59,7 @@ function integrateWithRouter(app?: Application) {
       // enable HTTP calls tracing
       new Sentry.Integrations.Http({ tracing: true }),
       // enable Express.js middleware tracing
-      new Integrations.Express({ app }),
+      new Integrations.Express({ app: app as any }),
     );
   }
   return integrations;
