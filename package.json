@@ -34,9 +34,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nestjsplus/nestjs-package-starter"
+    "url": "https://github.com/sajjad-shirazy/standard-sentry-setup"
   },
-  "bugs": "https://github.com/nestjsplus/nestjs-package-starter",
+  "bugs": "https://github.com/sajjad-shirazy/standard-sentry-setup",
   "peerDependencies": {
     "@nestjs/common": "^6.0.0"
   },
