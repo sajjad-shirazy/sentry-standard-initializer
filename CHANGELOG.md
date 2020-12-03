@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/sajjad-shirazy/standard-sentry-setup/compare/v1.0.4...v1.0.5) (2020-12-03)
+
+
+### Bug Fixes
+
+* repository ([528509b](https://github.com/sajjad-shirazy/standard-sentry-setup/commit/528509b3541160cd4b7f27d2e69c9399bb1bba20))
+
 ### [1.0.4](https://github.com/nestjsplus/nestjs-package-starter/compare/v1.0.3...v1.0.4) (2020-12-02)
 
 
