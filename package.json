@@ -1,5 +1,5 @@
 {
-  "name": "standard-sentry-setup",
+  "name": "@stijlbreuk/standard-sentry-setup",
   "version": "1.0.5",
   "description": "",
   "author": "Sajjad Shirazy <shirazy.sajjad@gmail.com>",
@@ -34,9 +34,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sajjad-shirazy/standard-sentry-setup"
+    "url": "https://github.com/stijlbreuk/standard-sentry-setup"
   },
-  "bugs": "https://github.com/sajjad-shirazy/standard-sentry-setup",
+  "bugs": "https://github.com/stijlbreuk/standard-sentry-setup",
   "peerDependencies": {
     "@nestjs/common": "^6.0.0"
   },
