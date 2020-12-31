@@ -1,6 +1,6 @@
 {
   "name": "@stijlbreuk/standard-sentry-setup",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "author": "Sajjad Shirazy <shirazy.sajjad@gmail.com>",
   "license": "MIT",
@@ -42,11 +42,11 @@
   },
   "dependencies": {
     "@sentry/node": "^5.28.0",
-    "@sentry/tracing": "^5.28.0",
-    "standard-version": "^9.0.0"
+    "@sentry/tracing": "^5.28.0"
   },
   "devDependencies": {
     "@nestjs/common": "^6.0.0",
+    "standard-version": "^9.0.0",
     "@nestjs/core": "^6.0.0",
     "@nestjs/platform-express": "^6.0.0",
     "@nestjs/testing": "6.1.1",
