@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/stijlbreuk/standard-sentry-setup/compare/v1.0.5...v1.1.0) (2020-12-31)
+
+
+### Bug Fixes
+
+* package name ([3a95310](https://github.com/stijlbreuk/standard-sentry-setup/commit/3a95310ade7da53039c9e7776a78c5b60f6fccfe))
+
 ### [1.0.5](https://github.com/sajjad-shirazy/standard-sentry-setup/compare/v1.0.4...v1.0.5) (2020-12-03)
 
 
