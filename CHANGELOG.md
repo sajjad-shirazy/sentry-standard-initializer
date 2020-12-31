@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/stijlbreuk/standard-sentry-setup/compare/v1.1.1...v1.1.2) (2020-12-31)
+
+
+### Features
+
+* extra options ([f58eb2a](https://github.com/stijlbreuk/standard-sentry-setup/commit/f58eb2ac823d25dfd841b9dfaf3c4cd127a99eac))
+
 ### [1.1.1](https://github.com/stijlbreuk/standard-sentry-setup/compare/v1.1.0...v1.1.1) (2020-12-31)
 
 ## [1.1.0](https://github.com/stijlbreuk/standard-sentry-setup/compare/v1.0.5...v1.1.0) (2020-12-31)
