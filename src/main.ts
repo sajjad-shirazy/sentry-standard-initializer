@@ -14,7 +14,6 @@ const {
   SENTRY_TRACES_SAMPLE_RATE,
 } = process.env;
 
-
 export default Sentry;
 
 function filterMetricsRequests(tracingHandler: Function): any {
@@ -35,12 +34,12 @@ function filterMetricsRequests(tracingHandler: Function): any {
 export function generateSentryOptions(app?: Application, extraOptions?:Partial<Sentry.NodeOptions>): Sentry.NodeOptions {
   return {
     dsn: SENTRY_DSN,
-    environment: NODE_ENV,
-    release: RELEASE_GIT_SHORT_SHA,
-    logLevel: parseInt(SENTRY_LOG_LEVEL),
+    environment: NODE_ENV || 'local-dev',
+    release: RELEASE_GIT_SHORT_SHA || 'unknown-release',
+    logLevel: parseInt(SENTRY_LOG_LEVEL || '3'),
     integrations: integrateWithRouter(app),
     // Be sure to lower this in production
-    tracesSampleRate: parseFloat(SENTRY_TRACES_SAMPLE_RATE),
+    tracesSampleRate: parseFloat(SENTRY_TRACES_SAMPLE_RATE || '1.0'),
     ...extraOptions
   };
 }
