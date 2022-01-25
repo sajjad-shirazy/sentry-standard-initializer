@@ -41,12 +41,11 @@
     "@nestjs/common": "^6.0.0"
   },
   "dependencies": {
-    "@sentry/node": "^5.28.0",
-    "@sentry/tracing": "^5.28.0"
+    "@sentry/node": "^5.30.0",
+    "@sentry/tracing": "^5.30.0"
   },
   "devDependencies": {
     "@nestjs/common": "^6.0.0",
-    "standard-version": "^9.0.0",
     "@nestjs/core": "^6.0.0",
     "@nestjs/platform-express": "^6.0.0",
     "@nestjs/testing": "6.1.1",
@@ -56,6 +55,7 @@
     "@types/supertest": "2.0.7",
     "jest": "24.7.1",
     "prettier": "1.17.0",
+    "standard-version": "^9.0.0",
     "supertest": "4.0.2",
     "ts-jest": "24.0.2",
     "ts-node": "8.1.0",

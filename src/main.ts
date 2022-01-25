@@ -14,6 +14,9 @@ const {
   SENTRY_TRACES_SAMPLE_RATE,
 } = process.env;
 
+
+export default Sentry;
+
 function filterMetricsRequests(tracingHandler: Function): any {
   return (
     req: IncomingMessage,
